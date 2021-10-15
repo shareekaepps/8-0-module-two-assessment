@@ -1,0 +1,21 @@
+* {
+    background-color: lavender;
+}
+
+header {
+    background-color: skyblue;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 75%;
+    align-items: left;
+    padding: 0px 0px;
+    font-family: monospace;
+}
+
+#logo img {
+    width: 75%;
+    background-color: skyblue;
+}
+
+
