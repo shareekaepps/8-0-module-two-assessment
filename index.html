@@ -12,7 +12,6 @@
     
     <div class ="fixed-header">
         <header><h1>Ghibli Review App</h1>
-            <!-- <div id="logo"> -->
                 <img src="./images/ghibli-logo.png" alt="ghibli logo" width="300" />
             </div>
     <div id="header-image-text">
@@ -20,8 +19,6 @@
                     <form id="titles-select">
                         <strong><label>Select A Title</label></strong>
                         <select id="titles" name="titles">
-                                                
-                            <option value="">-- Please choose a Film --
                             <option value="castle">Castle in the Sky</option>
                             <option value="grave">Grave of the Fireflies</option>
                             <option value="totoro">My Neighbor Totoro</option>
@@ -45,23 +42,32 @@
                             <option value="red">The Red Turtle</option>
                         </option>    
                         </select>
-                    </form>
+                     </form>
                     <br><br>        
-                    <!-- <ul></ul> -->
                 </ul>
             </header>
         </div>
     </div>
+           <div class="section-review"></div>
+                <h3>My Neighbor Totoro</h3>
+                <strong><p>1988</p></strong>
+                <p>
+                    "Two sisters move to the country with their father in order to be closer 
+                    to their hospitalized mother, and discover the surrounding trees are inhabited by Totoros, 
+                    magical spirits of the forest. When the youngest runs away from home, the older sister seeks 
+                    help from the spirits to find her."
+                </p>
                 <form action="/action_page.php">
-                    <label for="yreview">Your Review:</label>
+                    <strong><label for="yreview">Your Review:</label></strong>
                         <input type="text" 
                                 id="yreview"
                                 name="yreview"
-                                type="text"
                                 />
                     <input type="submit" value="Submit">
-                    <div id="display-info"></div>
+
+                <div id="display-info"></div>
                 </form>
-        </div>
+            <ul></ul>
+            
 </body>
 </html>
