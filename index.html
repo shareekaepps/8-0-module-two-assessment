@@ -9,52 +9,61 @@
     <link rel="stylesheet" href = "styles.css">
 </head>
 <body>
+    
     <div class ="fixed-header">
-        <header>
-            <div id="logo">
-                <h1>Ghibli Review App</h1>
-                <img src="images/ghibli-logo.png" alt="ghibli logo" width="300" />
+        <header><h1>Ghibli Review App</h1>
+            <!-- <div id="logo"> -->
+                <img src="./images/ghibli-logo.png" alt="ghibli logo" width="300" />
             </div>
-            
     <div id="header-image-text">
                 <ul class="title"></ul>
-                    <form id="movie-titles">
+                    <form id="titles-select">
                         <strong><label>Select A Title</label></strong>
-                        <select name="titles" 
-                                id="movie-titles">
+                        <select id="titles" name="titles">
                                                 
-                            <option value="">-- Please choose a Film --
-                        </option>
+                            <!-- <option value="default">-- Please choose a Film -- -->
                             <option value="castle">Castle in the Sky</option>
                             <option value="grave">Grave of the Fireflies</option>
                             <option value="totoro">My Neighbor Totoro</option>
                             <option value="kikis">Kiki's Delivery Service</option>
                             <option value="only">Only Yesterday</option>
+                            <option value="porco">Porco Rosso</option>
                             <option value="pom">Pom Poko</option>
                             <option value="whisper">Whisper of the Heart</option>
-                            <option value="porco">Porco Rosso</option>
                             <option value="princess">Princess Mononoke</option>
                             <option value="yamadas">My Neighbors the Yamadas</option>
                             <option value="spirited">Spirited Away</option>
+                            <option value="cat">The Cat Returns</option>
+                            <option value="howls">Howl's Moving Castle</option>
+                            <option value="tales">Tales from Earthsea</option>
+                            <option value="ponyo">Ponyo</option>
+                            <option value="arrietty">Arrietty</option>
+                            <option value="from">From Up on Poppy Hill</option>
+                            <option value="wind">The Wind Rises</option>
+                            <option value="thetale">The Tale of the Princess Kaguya</option>
+                            <option value="when">When Marnie Was There</option>
+                            <option value="red">The Red Turtle</option>
+                        </option>    
                         </select>
-                        <div id="display-info">
-                            <h3></h3>
-                        </div>
-
-                        </form>
+                    </form>
+                <br><br>        
             <ul></ul>
                     </div>
                 </ul>
             </header>
         </div>
     </div>
-
-    <div id= "main">
-        <div id = "content">
-            <div>
-                
-  
-            </div>
-
+                    <form action="/action_page.php">
+                        <label for="yreview">Your Review:</label>
+                        <input type="text" 
+                                id="yreview"
+                                name="yreview"
+                                type="text"
+                                />
+                    <input type="submit" value="Submit">
+                    <div id="display-info"></div>
+    </form>
+            <!-- <h3></h3> -->
+        </div>
 </body>
 </html>

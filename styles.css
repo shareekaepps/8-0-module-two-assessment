@@ -2,6 +2,7 @@
     display: grid;
     background-color: lavender;
     text-align: center;
+    font-family: monospace;
     margin: 0;
     padding: 0;
 }
