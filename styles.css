@@ -1,15 +1,33 @@
-* {
+* body {
+    display: grid;
     background-color: lavender;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color: skyblue;
     position: relative;
-    top: 0;
-    left: 0;
+    margin: 0 auto;
+    padding: 0;
     width: 75%;
     align-items: left;
     padding: 0px 0px;
+    font-family: monospace;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+#fixed-header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
     font-family: monospace;
 }
 
@@ -17,5 +35,6 @@ header {
     width: 75%;
     background-color: skyblue;
 }
+
 
 
